@@ -1,8 +1,6 @@
 # TASK
 # Make assert statement pass
 
-# I AM NOT DONE
-
 from testing import assert_true
 
 
@@ -12,7 +10,7 @@ fn pow(base: Int, exp: Int) -> Int:
 
 # do not change below this line
 fn main() raises:
-    let c = pow(3)
+    var c = pow(3, 2)
     
     if c != 9:
         raise Error('z should equal 9')

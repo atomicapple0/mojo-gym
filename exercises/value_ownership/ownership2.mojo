@@ -1,8 +1,6 @@
 # TASK
 # Make this file compile
 
-# I AM NOT DONE
-
 # Do not change this function
 fn take_value(owned x: Int):
     x += 2

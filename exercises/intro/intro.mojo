@@ -6,7 +6,5 @@
 # TASK:
 # Output the string "Hello, Mojo!" to the console.
 
-# I AM NOT DONE
-
 def main():
-    print('Hello {}')
+    print('Hello, Mojo!')

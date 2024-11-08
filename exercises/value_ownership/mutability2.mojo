@@ -1,9 +1,7 @@
 # TASK
 # Compile program and make it pass tests
 
-# I AM NOT DONE
-
-fn add_mutate(x: Int, y: Int) -> Int:
+fn add_mutate(inout x: Int, inout y: Int) -> Int:
     x += 1
     y += 1
     return x + y
@@ -20,7 +18,7 @@ fn main() raises:
     print('x = ', x)
     print('y = ', y)
 
-    let a = add(x, y)
+    var a = add(x, y)
     print('a = ', a)
 
     if a != 3:
@@ -30,7 +28,7 @@ fn main() raises:
     if y != 2:
         raise Error('y should not be changed')
 
-    let b = add_mutate(x, y)
+    var b = add_mutate(x, y)
     print('b = ', b)
     print('x = ', x)
     print('y = ', y)

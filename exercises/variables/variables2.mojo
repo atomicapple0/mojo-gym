@@ -1,13 +1,11 @@
 # TASK
 # Fix error(s) so the program compiles
 
-# I AM NOT DONE
-
 def main():
-    let x: Int
-    var y: Int
+    var x: Int = 1
+    var y: Int = 2
 
-    let c: Int
+    var c: Int
     c = x + y
     
     if c == 5:
